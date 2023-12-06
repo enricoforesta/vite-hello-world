@@ -1,5 +1,7 @@
 <script>
-import AppTitleComponent from './components/AppTitleComponent.vue'
+import AppTitleComponent from './components/AppTitleComponent.vue';
+import AppHeroComponent from './components/AppHeroComponent.vue';
+
 export default {
   data() {
     return {
@@ -7,14 +9,21 @@ export default {
     }
   },
   components: {
-    AppTitleComponent
+    AppTitleComponent,
+    AppHeroComponent
   }
 }
 
 </script>
 
 <template>
-  <AppTitleComponent />
+  <header>
+    <AppTitleComponent />
+  </header>
+
+  <main>
+    <AppHeroComponent />
+  </main>
 </template>
 
 <style scoped></style>

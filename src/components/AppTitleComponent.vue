@@ -1,5 +1,6 @@
 <script>
 export default {
+  name: "Titolo header",
   data() {
     return {
       title: "La mia prima App con VITE"
